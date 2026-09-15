@@ -160,14 +160,6 @@ airflow dags trigger airclaude_model_eval_demo
 
 ---
 
-## Why this is the project I built for the Anthropic Lead Technical Instructor role
-
-The tool registries, contracts, and Airflow orchestration in this repo already existed — I didn't invent a toy example to learn Claude tool use on. I took a system I'd already put in front of a live conference audience and asked a narrower question: **how much of "an agent" is actually provider-specific?**
-
-The answer, concretely, is `claude_env.py` (client selection) and `tools/claude_tool_adapter.py` (protocol translation) — everything else was portable. That's the same claim the role's preferred qualifications make about the Claude Developer Platform (direct API, Bedrock, Vertex, Foundry as interchangeable deployment surfaces for the same agent), demonstrated in code rather than asserted in a resume bullet.
-
----
-
 ## Built on
 
 - **Anthropic Messages API** — tool use, direct API / Bedrock / Vertex
