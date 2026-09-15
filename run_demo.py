@@ -2,10 +2,9 @@
 """
 AirClaude Standalone Runner — NYC 311 Productivity Agent
 -----------------------------------------------------------
-Runs the same NYC 311 triage loop as AirClaw's NemoClaw, against the Claude
-Developer Platform instead of NVIDIA NIM. Same tool registry
-(tools/airclaw_tools.py, copied verbatim from AirClaw), same demo data, same
-SUCCESS/RETRY/ESCALATE contract — only the model provider changed.
+Runs the NYC 311 triage loop against the Claude Developer Platform instead
+of NVIDIA NIM. Same tool registry (tools/triage_tools.py), same demo data,
+same SUCCESS/RETRY/ESCALATE contract — only the model provider changed.
 
 Usage:
   python3 run_demo.py                          # happy path
@@ -32,8 +31,8 @@ CLEAN     = DATA_DIR / "nyc_311_clean.csv"
 BROKEN    = DATA_DIR / "nyc_311_broken.csv"
 
 sys.path.insert(0, str(TOOLS_DIR))
-import airclaw_tools as tools_mod
-from airclaw_tools import (
+import triage_tools as tools_mod
+from triage_tools import (
     TOOL_REGISTRY, TOOL_SCHEMAS, AgentStatus,
     trim_for_history as trim_result_for_history,
 )
@@ -123,9 +122,8 @@ def log_status(s):
 # ── Claude API ─────────────────────────────────────────────────────────────────
 
 def call_claude(client, messages: list):
-    # Escalating timeouts — mirrors AirClaw's NIM retry policy. A hosted model
-    # can be slow to first token under load; a single short timeout is enough
-    # to kill a run mid-pipeline.
+    # Escalating timeouts — a hosted model can be slow to first token under
+    # load; a single short timeout is enough to kill a run mid-pipeline.
     timeouts = [60, 90, 120]
     for attempt, timeout in enumerate(timeouts, 1):
         try:
@@ -169,7 +167,7 @@ def _fallback(missing, file_path: str, briefed=None, top_n: int = 2):
     itself; this only runs for the steps it left undone, and every line is
     labeled so the logs never credit the agent with work it did not do.
     """
-    from airclaw_tools import (
+    from triage_tools import (
         check_sla_breaches, draft_supervisor_briefing, generate_summary,
         SLABreachInput, DraftBriefingInput, GenerateSummaryInput,
     )

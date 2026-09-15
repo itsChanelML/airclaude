@@ -1,5 +1,5 @@
 # AirClaude 🦾
-### AirClaw, ported to the Claude Developer Platform
+### A self-healing pipeline agent, ported to the Claude Developer Platform
 
 > Same tool-calling agent, same typed contracts, same demo data — pointed at Claude instead of NVIDIA NIM.
 
@@ -7,13 +7,13 @@
 
 ## What this is
 
-[AirClaw](https://github.com/itsChanelML/airclaw) is a self-healing pipeline agent I built for DevFest DC: Apache Airflow for orchestration, a small hand-rolled tool-calling loop for reasoning, and a `SUCCESS / RETRY / ESCALATE` contract so failures surface as typed diagnoses instead of stack traces.
+[An earlier version of this project](https://github.com/itsChanelML/airclaw) was a self-healing pipeline agent I built for DevFest DC: Apache Airflow for orchestration, a small hand-rolled tool-calling loop for reasoning, and a `SUCCESS / RETRY / ESCALATE` contract so failures surface as typed diagnoses instead of stack traces.
 
 **AirClaude is the same architecture, rebuilt against the [Claude Developer Platform](https://docs.claude.com/en/docs/agents-and-tools/claude-developer-platform)** — the Anthropic Messages API, with tool use, running through the direct API, AWS Bedrock, or Google Vertex AI as a config flag rather than a rewrite.
 
 The point of building it twice: the agent *architecture* — typed tool contracts, idempotent tools, structured escalation, context-window trimming — turned out to be entirely provider-agnostic. Only the wire protocol changes. This repo is that seam, made explicit.
 
-Two pipelines, unchanged from AirClaw:
+Two pipelines, unchanged from the original:
 
 **Pipeline 1 — NYC 311 Triage Agent**
 Finds every open request that's breached its SLA window, detects overnight complaint spikes, and drafts a ready-to-send supervisor briefing per agency — the 30–60 minutes of manual triage a city agency supervisor does every morning.
@@ -23,14 +23,14 @@ Compares two models on production eval data — quality by category, regressions
 
 ---
 
-## What actually changed vs. AirClaw
+## What actually changed vs. the original
 
-| | AirClaw (original) | AirClaude (this repo) |
+| | Original | AirClaude (this repo) |
 |---|---|---|
 | Model provider | NVIDIA NIM (`nemotron-3-super-120b-a12b`) | Claude, via direct API / Bedrock / Vertex |
 | Tool-calling protocol | OpenAI-style (`tool_calls`, `role: tool`) | Anthropic Messages API (`tool_use` / `tool_result` content blocks) |
 | System prompt | A `role: system` message | A top-level `system` request parameter |
-| Business logic (`tools/airclaw_tools.py`, `tools/model_eval_tools.py`, `tools/schema_diff.py`) | — | **Copied verbatim.** SLA math, spike detection, schema-drift diagnosis, briefing/report drafting don't know or care which model calls them. |
+| Business logic (`tools/triage_tools.py`, `tools/model_eval_tools.py`, `tools/schema_diff.py`) | — | **Copied verbatim.** SLA math, spike detection, schema-drift diagnosis, briefing/report drafting don't know or care which model calls them. |
 | Orchestration (Airflow DAGs, `rebase_data.py`, macOS fork-safety shim) | — | **Copied verbatim**, operator swapped underneath. |
 | New: provider abstraction (`claude_env.py`) | — | One config value (`CLAUDE_PROVIDER`) selects `anthropic.Anthropic()`, `AnthropicBedrock()`, or `AnthropicVertex()` — same `.messages.create()` call either way. |
 | New: protocol adapter (`tools/claude_tool_adapter.py`) | — | Converts the OpenAI-style `TOOL_SCHEMAS` list each registry already exports into Claude's `input_schema` shape, so the tool registries never had to be touched. |
@@ -54,15 +54,15 @@ Everything in the table's left column that isn't "—" is the part of the system
 ## Project structure
 
 ```
-airclaw-claude/
+airclaude/
 ├── dags/
 │   ├── airclaude_demo.py            # 311 triage DAG
 │   └── model_eval_demo.py            # Model eval DAG
-├── data/                             # Same sample data as AirClaw
+├── data/                             # Sample data for both demo pipelines
 ├── plugins/
 │   └── airclaude_operator.py        # Airflow operator — Claude Messages API loop
 ├── tools/
-│   ├── airclaw_tools.py              # 311 tool registry — copied verbatim from AirClaw
+│   ├── triage_tools.py               # 311 tool registry
 │   ├── model_eval_tools.py           # Model eval tool registry — copied verbatim
 │   ├── schema_diff.py                # Shared schema-drift diagnosis — copied verbatim
 │   └── claude_tool_adapter.py        # NEW — OpenAI-schema -> Claude-schema adapter
@@ -86,7 +86,7 @@ airclaw-claude/
 ### 1. Install
 
 ```bash
-cd airclaw-claude
+cd airclaude
 pip3 install -r requirements.txt
 ```
 
@@ -173,7 +173,7 @@ The answer, concretely, is `claude_env.py` (client selection) and `tools/claude_
 - **Anthropic Messages API** — tool use, direct API / Bedrock / Vertex
 - **Apache Airflow** — orchestration, scheduling, observability
 - **Pydantic** — typed tool schemas
-- Business logic and orchestration ported unchanged from [AirClaw](https://github.com/itsChanelML/airclaw)
+- Business logic and orchestration ported unchanged from [an earlier version of this project](https://github.com/itsChanelML/airclaw)
 
 ---
 

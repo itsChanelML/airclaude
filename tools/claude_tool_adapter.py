@@ -1,13 +1,12 @@
 """
 OpenAI-style tool schema -> Claude tool schema adapter
 -------------------------------------------------------
-AirClaw's tool registries (airclaw_tools.py, model_eval_tools.py) are copied
-into this repo unchanged — the business logic (SLA math, schema-drift
-diagnosis, briefing/report drafting) does not know or care which model calls
-it. What differs between providers is only the shape of the tool-calling
-protocol:
+The tool registries (triage_tools.py, model_eval_tools.py) contain business
+logic — SLA math, schema-drift diagnosis, briefing/report drafting — that
+does not know or care which model calls it. What differs between providers
+is only the shape of the tool-calling protocol:
 
-  OpenAI-style (what AirClaw's NIM path speaks):
+  OpenAI-style (what an NVIDIA NIM deployment speaks):
     tool schema:       {"type": "function", "function": {name, description, parameters}}
     assistant message:  message["tool_calls"] = [{"id", "function": {name, arguments}}]
     tool reply:         {"role": "tool", "tool_call_id": ..., "content": ...}

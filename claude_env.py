@@ -11,9 +11,9 @@ Three ways to reach Claude, same code path:
   CLAUDE_PROVIDER=bedrock            -> anthropic.AnthropicBedrock() — AWS Bedrock
   CLAUDE_PROVIDER=vertex             -> anthropic.AnthropicVertex()  — Google Vertex AI
 
-This is the same tool-calling agent loop as AirClaw's NemoClaw, pointed at the
-Claude Developer Platform instead of NVIDIA NIM — the provider is a config
-value, not an architecture decision.
+This is the same tool-calling agent loop pointed at the Claude Developer
+Platform instead of NVIDIA NIM — the provider is a config value, not an
+architecture decision.
 
 Python 3.9 compatible.
 """
@@ -159,11 +159,8 @@ def get_client_and_error(env_var: str = "ANTHROPIC_API_KEY"):
 
 
 # ── Path resolution ────────────────────────────────────────────────────────────
-# Same pattern as AirClaw's airclaw_env.py: explicit AIRCLAUDE_HOME wins,
-# otherwise walk up looking for the repo layout, otherwise fall back to this
-# file's directory. Kept as its own env var (not AIRCLAW_HOME) so both repos
-# can be checked out side by side without one's override leaking into the
-# other's DAG parsing.
+# Explicit AIRCLAUDE_HOME wins, otherwise walk up looking for the repo layout,
+# otherwise fall back to this file's directory.
 
 def repo_root() -> Path:
     """Locate the AirClaude repo root regardless of how the caller was invoked."""

@@ -3,8 +3,7 @@
 AirClaude pre-flight check
 -----------------------------
 Verifies, in about ten seconds, every external thing the demo depends on and
-cannot control — same idea as AirClaw's preflight.py, pointed at the Claude
-Developer Platform.
+cannot control.
 
     python3 preflight.py              # full check
     python3 preflight.py --no-airflow # skip the DAG parse (faster)
@@ -156,7 +155,7 @@ def check_data():
 def check_rebasing():
     section("Date rebasing")
     from rebase_data import describe_shift, rebase_csv
-    import airclaw_tools as tools
+    import triage_tools as tools
 
     with tempfile.TemporaryDirectory() as tmp:
         target = Path(tmp) / "rebased.csv"
@@ -189,8 +188,8 @@ def check_rebasing():
 
 def check_registries():
     section("Tool registries")
-    import airclaw_tools, model_eval_tools
-    for label, module in (("311 triage", airclaw_tools), ("model eval", model_eval_tools)):
+    import triage_tools, model_eval_tools
+    for label, module in (("311 triage", triage_tools), ("model eval", model_eval_tools)):
         registry = set(module.TOOL_REGISTRY)
         schemas  = {s["function"]["name"] for s in module.TOOL_SCHEMAS}
         if registry == schemas:
@@ -203,11 +202,11 @@ def check_registries():
 
 def check_adapter():
     section("Tool schema adapter")
-    import airclaw_tools
+    import triage_tools
     from claude_tool_adapter import to_claude_tools
-    claude_tools = to_claude_tools(airclaw_tools.TOOL_SCHEMAS)
+    claude_tools = to_claude_tools(triage_tools.TOOL_SCHEMAS)
     names = {t["name"] for t in claude_tools}
-    expected = set(airclaw_tools.TOOL_REGISTRY)
+    expected = set(triage_tools.TOOL_REGISTRY)
     if names == expected and all("input_schema" in t for t in claude_tools):
         ok("openai -> claude conversion", f"{len(claude_tools)} tools converted")
     else:

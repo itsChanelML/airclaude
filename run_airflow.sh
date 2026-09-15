@@ -2,9 +2,9 @@
 #
 # AirClaude — one-command Airflow 3 startup
 # --------------------------------------------------------------------
-# Same script as AirClaw's run_airflow.sh, pointed at this repo's dags/ and
-# plugins/ directories, so there is nothing to copy and nothing to keep in
-# sync. Then starts the API server and scheduler together.
+# Points Airflow at this repo's dags/ and plugins/ directories, so there is
+# nothing to copy and nothing to keep in sync. Then starts the API server
+# and scheduler together.
 #
 #   ./run_airflow.sh          # start Airflow, UI on http://localhost:8080
 #   ./run_airflow.sh --check  # parse DAGs and exit (no server)
@@ -23,13 +23,13 @@ export AIRFLOW_HOME="${AIRFLOW_HOME:-$REPO/airflow_home}"
 export AIRFLOW__CORE__DAGS_FOLDER="$REPO/dags"
 export AIRFLOW__CORE__PLUGINS_FOLDER="$REPO/plugins"
 export AIRFLOW__CORE__LOAD_EXAMPLES=False
-# Console noise suppression — same rationale as AirClaw's run_airflow.sh.
+# Console noise suppression.
 export PYTHONWARNINGS="${PYTHONWARNINGS:-ignore}"
 export AIRFLOW__LOGGING__LOGGING_LEVEL="${AIRFLOW__LOGGING__LOGGING_LEVEL:-WARNING}"
 export AIRFLOW__LOGGING__CELERY_LOGGING_LEVEL=WARNING
 export AIRFLOW__TRACES__OTEL_ON=False
 
-# macOS fork safety — same fix as AirClaw. See compat/setproctitle.py.
+# macOS fork safety. See compat/setproctitle.py.
 export no_proxy="${no_proxy:-*}"
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export PYTHONPATH="$REPO/compat${PYTHONPATH:+:$PYTHONPATH}"

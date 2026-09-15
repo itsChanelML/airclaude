@@ -1,5 +1,5 @@
 """
-AirClaw Tool Registry — NYC 311 Productivity Agent
+Tool Registry — NYC 311 Productivity Agent
 ---------------------------------------------------
 These tools do the work a city agency analyst spends
 30-60 minutes doing manually every morning.
@@ -713,7 +713,7 @@ def draft_supervisor_briefing(input: DraftBriefingInput) -> AgentResult:
 
     lines.append("")
     lines.append("—")
-    lines.append("AirClaw Autonomous Pipeline | NYC 311 Operations Intelligence")
+    lines.append("AirClaude Autonomous Pipeline | NYC 311 Operations Intelligence")
     lines.append("Generated automatically at 6am daily. Reply to confirm receipt.")
 
     briefing_text = "\n".join(lines)
@@ -774,7 +774,7 @@ def generate_summary(input: GenerateSummaryInput) -> AgentResult:
         except Exception:
             overnight_count = None
 
-    lines = [f"AirClaw morning run complete — {datetime.now().strftime('%Y-%m-%d %H:%M')}."]
+    lines = [f"AirClaude morning run complete — {datetime.now().strftime('%Y-%m-%d %H:%M')}."]
     if overnight_count is not None:
         lines.append(
             f"Processed {overnight_count} request(s) received overnight "

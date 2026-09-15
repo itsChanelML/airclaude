@@ -2,8 +2,8 @@
 """
 AirClaude Model Eval Runner — GPT-4o vs Nemotron-Super
 ----------------------------------------------------------
-Same tool registry as AirClaw's model eval pipeline (tools/model_eval_tools.py,
-copied verbatim), same eval data, run against Claude instead of NVIDIA NIM.
+Same tool registry (tools/model_eval_tools.py), same eval data, run against
+Claude instead of NVIDIA NIM.
 
 python3 run_model_eval.py               # happy path
 python3 run_model_eval.py --break       # ESCALATE beat

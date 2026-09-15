@@ -1,9 +1,9 @@
 """
 AirClaude Demo DAG — NYC 311 Productivity Agent
 ---------------------------------------------------
-Same pipeline as AirClaw's airclaw_demo DAG, running on the Claude Developer
-Platform instead of NVIDIA NIM. Reviews overnight 311 requests, finds SLA
-breaches, detects complaint spikes, and drafts supervisor briefings.
+Runs on the Claude Developer Platform instead of NVIDIA NIM. Reviews
+overnight 311 requests, finds SLA breaches, detects complaint spikes, and
+drafts supervisor briefings.
 
 Three tasks:
 
@@ -174,7 +174,7 @@ with DAG(
             "description":     "NYC 311 overnight triage — SLA monitoring and supervisor briefing pipeline",
             "as_of":           datetime.now().strftime("%B %d, %Y at %I:%M %p"),
         },
-        tools_module="airclaw_tools",
+        tools_module="triage_tools",
         api_key_env="ANTHROPIC_API_KEY",
         max_iterations=14,
     )

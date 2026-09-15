@@ -1,8 +1,7 @@
 """
 AirClaude Model Eval DAG — GPT-4o vs Nemotron-Super Migration
 ------------------------------------------------------------------
-Same pipeline as AirClaw's model_eval_demo DAG, running on the Claude
-Developer Platform instead of NVIDIA NIM.
+Runs on the Claude Developer Platform instead of NVIDIA NIM.
 
 Three tasks:
 

@@ -1,10 +1,9 @@
 """
 AirClaudeOperator — Airflow 3 compatible
 ------------------------------------------
-Custom Airflow operator that runs the AirClaude agent loop inside a task —
-the same shape as AirClaw's AirClaudeOperator, pointed at the Claude Developer
-Platform (direct API, Bedrock, or Vertex — see claude_env.py) instead of
-NVIDIA NIM.
+Custom Airflow operator that runs the AirClaude agent loop inside a task,
+pointed at the Claude Developer Platform (direct API, Bedrock, or Vertex —
+see claude_env.py) instead of NVIDIA NIM.
 
 The agent reasons over a goal, calls typed tools from a registry, and returns
 a structured result to XCom. ESCALATE fails the task with a typed diagnosis
@@ -12,8 +11,8 @@ rather than a stack trace.
 
 Works with any tool registry exposing TOOL_REGISTRY, TOOL_SCHEMAS,
 AgentStatus, AgentResult, and (optionally) trim_for_history:
-  - airclaw_tools     — NYC 311 triage (copied verbatim from AirClaw)
-  - model_eval_tools  — model migration eval (copied verbatim from AirClaw)
+  - triage_tools      — NYC 311 triage
+  - model_eval_tools  — model migration eval
 
 Airflow 3 notes:
   - apply_defaults was removed in Airflow 3; BaseOperator handles defaults.
@@ -77,7 +76,7 @@ STREAMED_PAYLOADS = {
 # Per-registry system prompts. Hardcoding one prompt would mean the eval DAG
 # gets told to call draft_supervisor_briefing — a tool it does not have.
 SYSTEM_PROMPTS = {
-    "airclaw_tools": (
+    "triage_tools": (
         "You are AirClaude — an autonomous operations agent for NYC 311 service "
         "requests. You triage overnight data, find SLA breaches, detect spikes, "
         "draft supervisor briefings, and surface only what requires human "
@@ -136,7 +135,7 @@ class AirClaudeOperator(BaseOperator):
     context : dict
         Context payload passed to the agent (file paths, required fields, etc).
     tools_module : str
-        Tool registry module to import — "airclaw_tools" or "model_eval_tools".
+        Tool registry module to import — "triage_tools" or "model_eval_tools".
     system_prompt : str, optional
         Override the per-registry default system prompt.
     model : str
@@ -155,7 +154,7 @@ class AirClaudeOperator(BaseOperator):
         self,
         goal:            str,
         context:         Optional[Dict[str, Any]] = None,
-        tools_module:    str = "airclaw_tools",
+        tools_module:    str = "triage_tools",
         system_prompt:   Optional[str] = None,
         model:           Optional[str] = None,
         api_key_env:     str = "ANTHROPIC_API_KEY",
@@ -307,7 +306,7 @@ class AirClaudeOperator(BaseOperator):
     # ── Claude call ────────────────────────────────────────────────────────────
 
     def _call_claude(self, client, system_prompt, messages, claude_tools):
-        # Escalating timeouts — mirrors AirClaw's NIM retry policy.
+        # Escalating timeouts — a hosted model can be slow under load.
         for attempt, timeout in enumerate((60, 90, 120), 1):
             try:
                 return client.messages.create(
