@@ -1,0 +1,21 @@
+# AirClaude — NYC 311 Productivity Agent (Claude Developer Platform edition)
+# Install: pip3 install -r requirements.txt
+
+# Core agent dependencies
+apache-airflow>=2.8.0
+anthropic>=0.40.0
+pydantic>=2.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Data handling (used in tools + data generation)
+# csv and collections are stdlib — no install needed
+
+# The standalone runners (run_demo.py, run_model_eval.py) need only
+# anthropic + pydantic + python-dotenv. Airflow is required solely for
+# the DAG path (./run_airflow.sh).
+
+# ── Optional, provider-specific extras ─────────────────────────────────────
+# CLAUDE_PROVIDER=bedrock  ->  pip3 install "anthropic[bedrock]"  (+ boto3, already pulled in)
+# CLAUDE_PROVIDER=vertex   ->  pip3 install "anthropic[vertex]"
