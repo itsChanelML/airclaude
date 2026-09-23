@@ -1,0 +1,301 @@
+unique_key,created_date,complaint_type,borough,district,agency,supervisor,status,closed_date,hours_open,sla_hours,sla_breach,resolution_description
+SR-2026-20000000,2026-09-14T12:11:13,UNSANITARY CONDITION,BROOKLYN,Crown Heights,HPD,Director Priya Nair,Open,,8.2,168,NO,
+SR-2026-20000001,2026-09-07T17:33:13,Blocked Driveway,QUEENS,Forest Hills,NYPD,Lt. Marcus Webb,Closed,2026-09-08T08:50:56,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000002,2026-09-10T19:51:13,Street Condition,MANHATTAN,Chelsea,DOT,Dir. Samantha Chen,Closed,2026-09-13T07:30:08,,72,NO,A work order was issued for repair.
+SR-2026-20000003,2026-09-13T23:49:17,Noise - Residential,MANHATTAN,Harlem,NYPD,Lt. Marcus Webb,Closed,2026-09-14T17:44:02,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000004,2026-09-14T19:51:13,Blocked Driveway,STATEN ISLAND,Stapleton,NYPD,Lt. Marcus Webb,Open,,0.5,24,NO,
+SR-2026-20000005,2026-09-14T08:21:13,PLUMBING,STATEN ISLAND,Tottenville,HPD,Director Priya Nair,Open,,12.0,168,NO,
+SR-2026-20000006,2026-09-12T12:34:29,UNSANITARY CONDITION,BRONX,Fordham,HPD,Director Priya Nair,Closed,2026-09-14T18:06:24,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000007,2026-09-09T17:33:13,PAINT/PLASTER,QUEENS,Jackson Heights,HPD,Director Priya Nair,Closed,2026-09-11T20:42:55,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000008,2026-09-10T04:00:01,HEAT/HOT WATER,QUEENS,Flushing,HPD,Director Priya Nair,Closed,2026-09-14T12:42:25,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000009,2026-09-14T17:56:13,Noise - Commercial,MANHATTAN,Harlem,NYPD,Lt. Marcus Webb,Open,,2.4,24,NO,
+SR-2026-20000010,2026-09-07T02:46:06,HEAT/HOT WATER,BRONX,Mott Haven,HPD,Director Priya Nair,Closed,2026-09-14T18:22:30,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000011,2026-09-14T06:26:13,HEAT/HOT WATER,BROOKLYN,Williamsburg,HPD,Director Priya Nair,Open,,13.9,168,NO,
+SR-2026-20000012,2026-09-13T23:34:39,Water System,BROOKLYN,Flatbush,DEP,Mgr. Yvonne Blake,Closed,2026-09-14T14:24:20,,48,NO,The condition was investigated and corrected.
+SR-2026-20000013,2026-09-12T03:45:13,Noise - Commercial,QUEENS,Astoria,NYPD,Lt. Marcus Webb,Closed,2026-09-13T02:34:35,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000014,2026-09-14T02:36:13,HEAT/HOT WATER,BROOKLYN,Flatbush,HPD,Director Priya Nair,Open,,17.8,168,NO,
+SR-2026-20000015,2026-09-09T01:27:13,Blocked Driveway,BRONX,Fordham,NYPD,Lt. Marcus Webb,Closed,2026-09-09T21:51:39,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000016,2026-09-14T16:01:13,Blocked Driveway,BRONX,Fordham,NYPD,Lt. Marcus Webb,Open,,4.3,24,NO,
+SR-2026-20000017,2026-09-14T14:06:13,Noise - Residential,QUEENS,Astoria,NYPD,Lt. Marcus Webb,Open,,6.2,24,NO,
+SR-2026-20000018,2026-09-08T17:33:13,Elevator,MANHATTAN,Inwood,DOB,Insp. Tony Marchetti,Closed,2026-09-10T20:41:36,,96,NO,A building inspector was dispatched and the condition was addressed.
+SR-2026-20000019,2026-09-13T22:24:33,Illegal Parking,MANHATTAN,Inwood,NYPD,Lt. Marcus Webb,Closed,2026-09-14T12:04:35,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000020,2026-09-10T19:22:59,Noise - Commercial,MANHATTAN,East Village,NYPD,Lt. Marcus Webb,Open,,97.0,24,YES,
+SR-2026-20000021,2026-09-07T21:33:22,PAINT/PLASTER,MANHATTAN,East Village,HPD,Director Priya Nair,Closed,2026-09-14T19:46:32,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000022,2026-09-14T12:11:13,Noise - Residential,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Open,,8.2,24,NO,
+SR-2026-20000023,2026-09-08T03:22:59,Derelict Vehicle,STATEN ISLAND,Stapleton,NYPD,Lt. Marcus Webb,Open,,161.0,24,YES,
+SR-2026-20000024,2026-09-14T10:16:13,Illegal Parking,BRONX,Riverdale,NYPD,Lt. Marcus Webb,Open,,10.1,24,NO,
+SR-2026-20000025,2026-09-10T17:22:59,Graffiti,BRONX,Tremont,DSNY,Supt. Carlos Rivera,Open,,99.0,48,YES,
+SR-2026-20000026,2026-09-09T15:15:13,Derelict Vehicle,BRONX,Mott Haven,NYPD,Lt. Marcus Webb,Closed,2026-09-10T05:32:33,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000027,2026-09-11T12:57:13,Blocked Driveway,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-12T02:28:17,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000028,2026-09-13T21:50:17,Non-Emergency Police Matter,BRONX,Riverdale,NYPD,Lt. Marcus Webb,Closed,2026-09-14T09:01:27,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000029,2026-09-14T00:38:15,Noise - Street/Sidewalk,BRONX,Riverdale,NYPD,Lt. Marcus Webb,Closed,2026-09-14T19:51:13,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000030,2026-09-11T23:26:04,PAINT/PLASTER,STATEN ISLAND,Stapleton,HPD,Director Priya Nair,Closed,2026-09-14T17:16:21,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000031,2026-09-14T11:07:33,Noise - Residential,MANHATTAN,Harlem,NYPD,Lt. Marcus Webb,Closed,2026-09-14T18:33:22,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000032,2026-09-10T03:37:43,UNSANITARY CONDITION,BROOKLYN,Williamsburg,HPD,Director Priya Nair,Closed,2026-09-14T04:02:44,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000033,2026-09-13T09:56:35,Street Light Condition,BROOKLYN,Bed-Stuy,DOT,Dir. Samantha Chen,Closed,2026-09-14T18:23:57,,72,NO,A work order was issued for repair.
+SR-2026-20000034,2026-09-14T16:01:13,HEAT/HOT WATER,BROOKLYN,Flatbush,HPD,Director Priya Nair,Open,,4.3,168,NO,
+SR-2026-20000035,2026-09-14T14:06:13,HEAT/HOT WATER,QUEENS,Forest Hills,HPD,Director Priya Nair,Open,,6.2,168,NO,
+SR-2026-20000036,2026-09-14T12:11:13,Water System,BROOKLYN,Bushwick,DEP,Mgr. Yvonne Blake,Open,,8.2,48,NO,
+SR-2026-20000037,2026-09-07T19:51:13,HEAT/HOT WATER,BRONX,Fordham,HPD,Director Priya Nair,Closed,2026-09-10T05:21:05,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000038,2026-09-08T19:51:13,Street Condition,QUEENS,Astoria,DOT,Dir. Samantha Chen,Closed,2026-09-11T06:29:04,,72,NO,The Department of Transportation inspected and corrected the condition.
+SR-2026-20000039,2026-09-12T01:27:13,Blocked Driveway,BRONX,Mott Haven,NYPD,Lt. Marcus Webb,Closed,2026-09-12T22:43:38,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000040,2026-09-09T23:09:13,Elevator,BROOKLYN,Crown Heights,DOB,Insp. Tony Marchetti,Closed,2026-09-13T01:12:41,,96,NO,A violation was issued and the owner was notified.
+SR-2026-20000041,2026-09-09T19:22:59,Noise - Residential,BRONX,Fordham,NYPD,Lt. Marcus Webb,Open,,121.0,24,YES,
+SR-2026-20000042,2026-09-13T23:16:40,Illegal Parking,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-14T18:07:19,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000043,2026-09-13T01:27:13,Water System,MANHATTAN,Harlem,DEP,Mgr. Yvonne Blake,Open,,42.9,48,NO,
+SR-2026-20000044,2026-09-09T19:22:59,Street Light Condition,MANHATTAN,Harlem,DOT,Dir. Samantha Chen,Open,,121.0,72,YES,
+SR-2026-20000045,2026-09-14T08:21:13,UNSANITARY CONDITION,MANHATTAN,Washington Heights,HPD,Director Priya Nair,Open,,12.0,168,NO,
+SR-2026-20000046,2026-09-13T19:51:13,Blocked Driveway,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-14T13:54:44,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000047,2026-09-12T05:22:59,Water System,BROOKLYN,Crown Heights,DEP,Mgr. Yvonne Blake,Open,,63.0,48,YES,
+SR-2026-20000048,2026-09-11T15:15:13,Blocked Driveway,MANHATTAN,Chelsea,NYPD,Lt. Marcus Webb,Closed,2026-09-12T06:03:12,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000049,2026-09-14T08:21:13,Noise - Residential,MANHATTAN,East Village,NYPD,Lt. Marcus Webb,Open,,12.0,24,NO,
+SR-2026-20000050,2026-09-13T06:03:13,Noise - Residential,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Closed,2026-09-14T05:39:52,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000051,2026-09-08T21:07:16,PLUMBING,BRONX,Fordham,HPD,Director Priya Nair,Closed,2026-09-14T19:47:12,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000052,2026-09-11T06:40:29,PLUMBING,MANHATTAN,Inwood,HPD,Director Priya Nair,Closed,2026-09-14T17:23:54,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000053,2026-09-08T03:36:12,PAINT/PLASTER,QUEENS,Forest Hills,HPD,Director Priya Nair,Closed,2026-09-14T13:06:14,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000054,2026-09-13T21:24:11,Request Large Bulky Item Collection,BROOKLYN,Bushwick,DSNY,Supt. Carlos Rivera,Closed,2026-09-14T19:05:04,,48,NO,The Department of Sanitation responded and addressed the condition.
+SR-2026-20000055,2026-09-08T02:34:26,PAINT/PLASTER,BROOKLYN,Flatbush,HPD,Director Priya Nair,Closed,2026-09-14T06:30:24,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000056,2026-09-07T02:22:07,HEAT/HOT WATER,QUEENS,Astoria,HPD,Director Priya Nair,Closed,2026-09-14T11:34:53,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000057,2026-09-11T10:39:13,Noise - Commercial,BROOKLYN,Bushwick,NYPD,Lt. Marcus Webb,Closed,2026-09-12T11:55:39,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000058,2026-09-12T12:57:13,Blocked Driveway,BROOKLYN,Bushwick,NYPD,Lt. Marcus Webb,Closed,2026-09-13T02:44:59,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000059,2026-09-13T00:28:23,Graffiti,BROOKLYN,Bushwick,DSNY,Supt. Carlos Rivera,Closed,2026-09-14T17:26:27,,48,NO,Item was collected during the next scheduled pickup.
+SR-2026-20000060,2026-09-12T12:57:13,Request Large Bulky Item Collection,QUEENS,Jackson Heights,DSNY,Supt. Carlos Rivera,Closed,2026-09-13T16:35:48,,48,NO,The Department of Sanitation responded and addressed the condition.
+SR-2026-20000061,2026-09-14T06:26:13,Illegal Parking,BROOKLYN,Bushwick,NYPD,Lt. Marcus Webb,Open,,13.9,24,NO,
+SR-2026-20000062,2026-09-14T04:31:13,Illegal Parking,QUEENS,Forest Hills,NYPD,Lt. Marcus Webb,Open,,15.8,24,NO,
+SR-2026-20000063,2026-09-10T03:45:13,Street Light Condition,MANHATTAN,East Village,DOT,Dir. Samantha Chen,Closed,2026-09-11T02:22:23,,72,NO,A work order was issued for repair.
+SR-2026-20000064,2026-09-10T06:03:13,Graffiti,BRONX,Riverdale,DSNY,Supt. Carlos Rivera,Closed,2026-09-11T05:29:04,,48,NO,The Department of Sanitation responded and addressed the condition.
+SR-2026-20000065,2026-09-07T19:51:13,Non-Emergency Police Matter,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Closed,2026-09-08T12:27:47,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000066,2026-09-07T01:14:00,PAINT/PLASTER,BROOKLYN,Bushwick,HPD,Director Priya Nair,Closed,2026-09-14T02:20:03,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000067,2026-09-14T02:36:13,Noise - Residential,BRONX,Fordham,NYPD,Lt. Marcus Webb,Open,,17.8,24,NO,
+SR-2026-20000068,2026-09-14T00:41:13,Noise - Residential,QUEENS,Astoria,NYPD,Lt. Marcus Webb,Open,,19.7,24,NO,
+SR-2026-20000069,2026-09-14T04:31:13,PAINT/PLASTER,STATEN ISLAND,Port Richmond,HPD,Director Priya Nair,Open,,15.8,168,NO,
+SR-2026-20000070,2026-09-11T12:57:13,Noise - Commercial,BROOKLYN,Flatbush,NYPD,Lt. Marcus Webb,Closed,2026-09-12T15:05:53,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000071,2026-09-09T15:15:13,Graffiti,MANHATTAN,Harlem,DSNY,Supt. Carlos Rivera,Closed,2026-09-10T20:40:26,,48,NO,Item was collected during the next scheduled pickup.
+SR-2026-20000072,2026-09-13T23:35:22,Noise - Street/Sidewalk,BROOKLYN,Williamsburg,NYPD,Lt. Marcus Webb,Closed,2026-09-14T11:38:46,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000073,2026-09-07T15:15:13,Request Large Bulky Item Collection,BROOKLYN,Flatbush,DSNY,Supt. Carlos Rivera,Closed,2026-09-08T19:17:16,,48,NO,The Department of Sanitation responded and addressed the condition.
+SR-2026-20000074,2026-09-13T22:46:13,Blocked Driveway,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Open,,21.6,24,NO,
+SR-2026-20000075,2026-09-13T10:20:00,Rodent,MANHATTAN,Harlem,DOHMH,Dr. James Okafor,Closed,2026-09-14T14:04:36,,72,NO,An inspection was conducted and appropriate action was taken.
+SR-2026-20000076,2026-09-08T10:39:13,Blocked Driveway,BRONX,Fordham,NYPD,Lt. Marcus Webb,Closed,2026-09-08T22:48:13,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000077,2026-09-07T03:20:20,HEAT/HOT WATER,QUEENS,Jamaica,HPD,Director Priya Nair,Closed,2026-09-14T15:31:49,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000078,2026-09-13T21:30:50,Illegal Parking,QUEENS,Flushing,NYPD,Lt. Marcus Webb,Closed,2026-09-14T16:33:05,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000079,2026-09-06T23:22:59,Noise - Commercial,BROOKLYN,Flatbush,NYPD,Lt. Marcus Webb,Open,,189.0,24,YES,
+SR-2026-20000080,2026-09-07T19:22:59,Non-Emergency Police Matter,BRONX,Tremont,NYPD,Lt. Marcus Webb,Open,,169.0,24,YES,
+SR-2026-20000081,2026-09-13T22:08:38,Noise - Street/Sidewalk,QUEENS,Forest Hills,NYPD,Lt. Marcus Webb,Closed,2026-09-14T05:39:32,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000082,2026-09-10T04:46:59,HEAT/HOT WATER,QUEENS,Flushing,HPD,Director Priya Nair,Closed,2026-09-14T07:57:35,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000083,2026-09-07T02:25:14,PAINT/PLASTER,MANHATTAN,Harlem,HPD,Director Priya Nair,Closed,2026-09-14T06:51:50,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000084,2026-09-08T08:21:13,Blocked Driveway,BROOKLYN,Crown Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-09T08:12:36,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000085,2026-09-14T19:51:13,Noise - Commercial,MANHATTAN,Chelsea,NYPD,Lt. Marcus Webb,Open,,0.5,24,NO,
+SR-2026-20000086,2026-09-08T23:09:13,Noise - Commercial,BROOKLYN,Bushwick,NYPD,Lt. Marcus Webb,Closed,2026-09-09T17:44:50,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000087,2026-09-09T08:21:13,Noise - Street/Sidewalk,STATEN ISLAND,Tottenville,NYPD,Lt. Marcus Webb,Closed,2026-09-10T08:34:47,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000088,2026-09-12T08:21:13,Illegal Parking,MANHATTAN,Harlem,NYPD,Lt. Marcus Webb,Closed,2026-09-12T20:17:41,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000089,2026-09-08T19:51:13,Illegal Parking,QUEENS,Jackson Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-09T12:29:57,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000090,2026-09-09T03:45:13,PLUMBING,QUEENS,Astoria,HPD,Director Priya Nair,Open,,136.6,168,NO,
+SR-2026-20000091,2026-09-06T21:22:59,HEAT/HOT WATER,BRONX,Mott Haven,HPD,Director Priya Nair,Open,,191.0,168,YES,
+SR-2026-20000092,2026-09-07T03:22:59,Homeless Person Assistance,BRONX,Pelham Bay,DHS,Dir. Fatima Hassan,Open,,185.0,24,YES,
+SR-2026-20000093,2026-09-12T17:33:13,Noise - Residential,BRONX,Mott Haven,NYPD,Lt. Marcus Webb,Closed,2026-09-13T09:33:01,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000094,2026-09-10T08:21:13,Blocked Driveway,BROOKLYN,Crown Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-11T08:36:21,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000095,2026-09-13T08:21:13,Illegal Parking,MANHATTAN,Harlem,NYPD,Lt. Marcus Webb,Closed,2026-09-13T20:20:15,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000096,2026-09-13T00:55:27,Water System,BRONX,Riverdale,DEP,Mgr. Yvonne Blake,Closed,2026-09-14T18:06:33,,48,NO,The condition was investigated and corrected.
+SR-2026-20000097,2026-09-11T05:39:13,PAINT/PLASTER,BROOKLYN,Flatbush,HPD,Director Priya Nair,Closed,2026-09-14T11:03:12,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000098,2026-09-12T15:15:13,Homeless Person Assistance,BROOKLYN,Williamsburg,DHS,Dir. Fatima Hassan,Closed,2026-09-13T06:22:22,,24,NO,The individual accepted shelter placement.
+SR-2026-20000099,2026-09-14T17:56:13,Homeless Person Assistance,QUEENS,Flushing,DHS,Dir. Fatima Hassan,Open,,2.4,24,NO,
+SR-2026-20000100,2026-09-09T12:57:13,Blocked Driveway,BRONX,Mott Haven,NYPD,Lt. Marcus Webb,Closed,2026-09-10T02:20:00,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000101,2026-09-10T02:30:35,UNSANITARY CONDITION,BRONX,Pelham Bay,HPD,Director Priya Nair,Closed,2026-09-14T19:13:31,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000102,2026-09-11T15:15:13,Rodent,QUEENS,Astoria,DOHMH,Dr. James Okafor,Closed,2026-09-12T20:58:45,,72,NO,An inspection was conducted and appropriate action was taken.
+SR-2026-20000103,2026-09-12T23:09:13,Request Large Bulky Item Collection,QUEENS,Forest Hills,DSNY,Supt. Carlos Rivera,Closed,2026-09-13T18:04:25,,48,NO,Item was collected during the next scheduled pickup.
+SR-2026-20000104,2026-09-14T16:01:13,Derelict Vehicle,MANHATTAN,Inwood,NYPD,Lt. Marcus Webb,Open,,4.3,24,NO,
+SR-2026-20000105,2026-09-11T08:21:13,Noise - Residential,STATEN ISLAND,New Dorp,NYPD,Lt. Marcus Webb,Closed,2026-09-11T20:14:51,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000106,2026-09-13T17:33:13,Homeless Person Assistance,BROOKLYN,Bushwick,DHS,Dir. Fatima Hassan,Closed,2026-09-14T09:47:29,,24,NO,A DHS outreach team responded and offered services.
+SR-2026-20000107,2026-09-12T01:27:13,Rodent,BROOKLYN,Flatbush,DOHMH,Dr. James Okafor,Open,,66.9,72,NO,
+SR-2026-20000108,2026-09-14T14:06:13,Derelict Vehicle,QUEENS,Jackson Heights,NYPD,Lt. Marcus Webb,Open,,6.2,24,NO,
+SR-2026-20000109,2026-09-10T02:51:04,HEAT/HOT WATER,QUEENS,Jamaica,HPD,Director Priya Nair,Closed,2026-09-14T18:21:15,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000110,2026-09-08T12:57:13,Noise - Street/Sidewalk,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-09T14:40:51,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000111,2026-09-14T12:11:13,Blocked Driveway,QUEENS,Flushing,NYPD,Lt. Marcus Webb,Open,,8.2,24,NO,
+SR-2026-20000112,2026-09-11T17:33:13,Rodent,BROOKLYN,Bushwick,DOHMH,Dr. James Okafor,Closed,2026-09-13T22:18:53,,72,NO,An inspection was conducted and appropriate action was taken.
+SR-2026-20000113,2026-09-08T03:45:13,HEAT/HOT WATER,MANHATTAN,Washington Heights,HPD,Director Priya Nair,Open,,160.6,168,NO,
+SR-2026-20000114,2026-09-07T08:21:13,Blocked Driveway,QUEENS,Flushing,NYPD,Lt. Marcus Webb,Closed,2026-09-07T19:46:19,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000115,2026-09-08T15:15:13,Blocked Driveway,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-09T05:29:42,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000116,2026-09-14T10:16:13,Blocked Driveway,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Open,,10.1,24,NO,
+SR-2026-20000117,2026-09-08T14:22:59,Water System,BRONX,Fordham,DEP,Mgr. Yvonne Blake,Open,,150.0,48,YES,
+SR-2026-20000118,2026-09-11T10:39:13,Illegal Parking,BRONX,Pelham Bay,NYPD,Lt. Marcus Webb,Closed,2026-09-11T23:38:39,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000119,2026-09-11T23:16:58,PLUMBING,BROOKLYN,Bushwick,HPD,Director Priya Nair,Closed,2026-09-14T16:12:35,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000120,2026-09-13T12:57:13,Homeless Person Assistance,MANHATTAN,East Village,DHS,Dir. Fatima Hassan,Closed,2026-09-14T03:02:43,,24,NO,The individual accepted shelter placement.
+SR-2026-20000121,2026-09-11T01:27:13,PAINT/PLASTER,BRONX,Pelham Bay,HPD,Director Priya Nair,Open,,90.9,168,NO,
+SR-2026-20000122,2026-09-12T06:29:29,PAINT/PLASTER,BRONX,Tremont,HPD,Director Priya Nair,Closed,2026-09-14T19:51:13,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000123,2026-09-11T22:30:42,HEAT/HOT WATER,QUEENS,Astoria,HPD,Director Priya Nair,Closed,2026-09-14T18:44:53,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000124,2026-09-12T23:49:58,Street Condition,QUEENS,Flushing,DOT,Dir. Samantha Chen,Closed,2026-09-14T12:54:08,,72,NO,The Department of Transportation inspected and corrected the condition.
+SR-2026-20000125,2026-09-07T02:24:38,HEAT/HOT WATER,MANHATTAN,Harlem,HPD,Director Priya Nair,Closed,2026-09-14T17:28:19,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000126,2026-09-11T05:34:34,HEAT/HOT WATER,BROOKLYN,Flatbush,HPD,Director Priya Nair,Closed,2026-09-14T16:06:56,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000127,2026-09-07T01:27:13,Blocked Driveway,BRONX,Tremont,NYPD,Lt. Marcus Webb,Closed,2026-09-07T20:53:08,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000128,2026-09-08T17:33:13,Illegal Parking,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Closed,2026-09-09T08:58:24,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000129,2026-09-14T08:21:13,Illegal Parking,STATEN ISLAND,New Dorp,NYPD,Lt. Marcus Webb,Open,,12.0,24,NO,
+SR-2026-20000130,2026-09-07T21:22:59,Illegal Parking,BROOKLYN,Crown Heights,NYPD,Lt. Marcus Webb,Open,,167.0,24,YES,
+SR-2026-20000131,2026-09-11T06:03:13,Blocked Driveway,QUEENS,Flushing,NYPD,Lt. Marcus Webb,Closed,2026-09-12T05:32:34,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000132,2026-09-11T03:45:13,Noise - Residential,BROOKLYN,Crown Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-11T11:19:05,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000133,2026-09-12T21:30:28,Street Condition,BRONX,Pelham Bay,DOT,Dir. Samantha Chen,Closed,2026-09-14T19:46:51,,72,NO,A work order was issued for repair.
+SR-2026-20000134,2026-09-14T06:26:13,Blocked Driveway,QUEENS,Flushing,NYPD,Lt. Marcus Webb,Open,,13.9,24,NO,
+SR-2026-20000135,2026-09-08T12:57:13,Illegal Parking,BROOKLYN,Crown Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-09T02:13:27,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000136,2026-09-08T23:09:13,PLUMBING,BROOKLYN,Williamsburg,HPD,Director Priya Nair,Closed,2026-09-11T23:31:10,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000137,2026-09-12T23:09:13,Street Condition,BROOKLYN,Crown Heights,DOT,Dir. Samantha Chen,Open,,45.2,72,NO,
+SR-2026-20000138,2026-09-11T19:51:13,Noise - Street/Sidewalk,BRONX,Pelham Bay,NYPD,Lt. Marcus Webb,Closed,2026-09-12T12:59:26,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000139,2026-09-10T01:27:13,PAINT/PLASTER,QUEENS,Forest Hills,HPD,Director Priya Nair,Open,,114.9,168,NO,
+SR-2026-20000140,2026-09-10T10:39:13,Homeless Person Assistance,QUEENS,Jamaica,DHS,Dir. Fatima Hassan,Closed,2026-09-11T11:46:59,,24,NO,The individual accepted shelter placement.
+SR-2026-20000141,2026-09-07T17:33:13,Graffiti,BRONX,Tremont,DSNY,Supt. Carlos Rivera,Closed,2026-09-09T18:37:05,,48,NO,The Department of Sanitation responded and addressed the condition.
+SR-2026-20000142,2026-09-08T23:37:38,HEAT/HOT WATER,BROOKLYN,Williamsburg,HPD,Director Priya Nair,Closed,2026-09-14T18:39:53,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000143,2026-09-11T06:03:13,Illegal Parking,BROOKLYN,Flatbush,NYPD,Lt. Marcus Webb,Closed,2026-09-11T17:03:03,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000144,2026-09-14T04:31:13,Noise - Commercial,BRONX,Riverdale,NYPD,Lt. Marcus Webb,Open,,15.8,24,NO,
+SR-2026-20000145,2026-09-10T19:51:13,Noise - Commercial,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-11T12:47:26,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000146,2026-09-11T23:09:13,Rodent,QUEENS,Forest Hills,DOHMH,Dr. James Okafor,Open,,69.2,72,NO,
+SR-2026-20000147,2026-09-11T17:33:13,Request Large Bulky Item Collection,BRONX,Fordham,DSNY,Supt. Carlos Rivera,Closed,2026-09-12T09:04:33,,48,NO,Item was collected during the next scheduled pickup.
+SR-2026-20000148,2026-09-08T20:22:59,Illegal Parking,BRONX,Mott Haven,NYPD,Lt. Marcus Webb,Open,,144.0,24,YES,
+SR-2026-20000149,2026-09-09T01:27:13,PLUMBING,BROOKLYN,Bushwick,HPD,Director Priya Nair,Open,,138.9,168,NO,
+SR-2026-20000150,2026-09-08T01:27:13,PLUMBING,QUEENS,Jamaica,HPD,Director Priya Nair,Open,,162.9,168,NO,
+SR-2026-20000151,2026-09-10T23:09:13,HEAT/HOT WATER,BROOKLYN,Bed-Stuy,HPD,Director Priya Nair,Open,,93.2,168,NO,
+SR-2026-20000152,2026-09-09T23:09:13,UNSANITARY CONDITION,MANHATTAN,Inwood,HPD,Director Priya Nair,Open,,117.2,168,NO,
+SR-2026-20000153,2026-09-08T01:27:13,UNSANITARY CONDITION,BRONX,Tremont,HPD,Director Priya Nair,Closed,2026-09-14T00:33:26,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000154,2026-09-08T23:09:13,PLUMBING,BROOKLYN,Crown Heights,HPD,Director Priya Nair,Open,,141.2,168,NO,
+SR-2026-20000155,2026-09-07T06:03:13,Blocked Driveway,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-08T04:58:37,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000156,2026-09-08T15:15:13,Water System,BRONX,Mott Haven,DEP,Mgr. Yvonne Blake,Closed,2026-09-09T20:18:18,,48,NO,A work crew was dispatched and resolved the issue.
+SR-2026-20000157,2026-09-07T23:09:13,PAINT/PLASTER,BROOKLYN,Williamsburg,HPD,Director Priya Nair,Open,,165.2,168,NO,
+SR-2026-20000158,2026-09-09T19:51:13,Noise - Residential,BROOKLYN,Flatbush,NYPD,Lt. Marcus Webb,Closed,2026-09-10T12:44:32,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000159,2026-09-14T02:36:13,Noise - Residential,BROOKLYN,Flatbush,NYPD,Lt. Marcus Webb,Open,,17.8,24,NO,
+SR-2026-20000160,2026-09-07T03:45:13,Illegal Parking,QUEENS,Forest Hills,NYPD,Lt. Marcus Webb,Closed,2026-09-08T01:13:29,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000161,2026-09-09T03:45:13,UNSANITARY CONDITION,QUEENS,Astoria,HPD,Director Priya Nair,Closed,2026-09-14T03:20:50,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000162,2026-09-12T23:32:01,Request Large Bulky Item Collection,MANHATTAN,Harlem,DSNY,Supt. Carlos Rivera,Closed,2026-09-14T15:50:01,,48,NO,The Department of Sanitation responded and addressed the condition.
+SR-2026-20000163,2026-09-11T06:58:31,UNSANITARY CONDITION,BRONX,Riverdale,HPD,Director Priya Nair,Closed,2026-09-14T18:43:44,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000164,2026-09-09T19:51:13,HEAT/HOT WATER,MANHATTAN,East Village,HPD,Director Priya Nair,Closed,2026-09-12T06:47:44,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000165,2026-09-07T12:57:13,Noise - Residential,BROOKLYN,Williamsburg,NYPD,Lt. Marcus Webb,Closed,2026-09-08T02:12:25,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000166,2026-09-08T03:45:13,Blocked Driveway,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Closed,2026-09-09T02:04:53,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000167,2026-09-14T00:41:13,Noise - Vehicle,BROOKLYN,Williamsburg,NYPD,Lt. Marcus Webb,Open,,19.7,24,NO,
+SR-2026-20000168,2026-09-10T01:27:13,Graffiti,QUEENS,Astoria,DSNY,Supt. Carlos Rivera,Closed,2026-09-10T21:52:12,,48,NO,Item was collected during the next scheduled pickup.
+SR-2026-20000169,2026-09-06T23:09:13,Non-Emergency Police Matter,QUEENS,Flushing,NYPD,Lt. Marcus Webb,Closed,2026-09-07T17:17:02,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000170,2026-09-11T01:27:13,Noise - Residential,MANHATTAN,Harlem,NYPD,Lt. Marcus Webb,Closed,2026-09-11T22:23:33,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000171,2026-09-13T22:46:13,Illegal Parking,QUEENS,Flushing,NYPD,Lt. Marcus Webb,Open,,21.6,24,NO,
+SR-2026-20000172,2026-09-13T03:45:13,Derelict Vehicle,STATEN ISLAND,St. George,NYPD,Lt. Marcus Webb,Closed,2026-09-14T02:35:54,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000173,2026-09-11T03:45:13,Non-Emergency Police Matter,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-12T02:28:20,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000174,2026-09-13T19:51:13,UNSANITARY CONDITION,BRONX,Pelham Bay,HPD,Director Priya Nair,Open,,24.5,168,NO,
+SR-2026-20000175,2026-09-10T03:45:13,Noise - Vehicle,BRONX,Pelham Bay,NYPD,Lt. Marcus Webb,Closed,2026-09-10T10:57:15,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000176,2026-09-12T19:51:13,UNSANITARY CONDITION,BROOKLYN,Williamsburg,HPD,Director Priya Nair,Open,,48.5,168,NO,
+SR-2026-20000177,2026-09-13T17:33:13,Water System,BRONX,Mott Haven,DEP,Mgr. Yvonne Blake,Open,,26.8,48,NO,
+SR-2026-20000178,2026-09-08T21:00:23,HEAT/HOT WATER,BROOKLYN,Bushwick,HPD,Director Priya Nair,Closed,2026-09-14T19:50:12,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000179,2026-09-11T21:55:48,Elevator,BROOKLYN,Bushwick,DOB,Insp. Tony Marchetti,Closed,2026-09-14T19:35:04,,96,NO,A violation was issued and the owner was notified.
+SR-2026-20000180,2026-09-11T21:30:56,Street Light Condition,QUEENS,Flushing,DOT,Dir. Samantha Chen,Closed,2026-09-14T13:53:44,,72,NO,A work order was issued for repair.
+SR-2026-20000181,2026-09-06T23:05:36,PAINT/PLASTER,QUEENS,Forest Hills,HPD,Director Priya Nair,Closed,2026-09-13T23:41:50,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000182,2026-09-11T19:51:13,PAINT/PLASTER,QUEENS,Forest Hills,HPD,Director Priya Nair,Open,,72.5,168,NO,
+SR-2026-20000183,2026-09-10T02:45:48,HEAT/HOT WATER,BROOKLYN,Williamsburg,HPD,Director Priya Nair,Closed,2026-09-14T17:19:15,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000184,2026-09-11T00:48:54,Elevator,MANHATTAN,Chelsea,DOB,Insp. Tony Marchetti,Closed,2026-09-14T04:00:29,,96,NO,A violation was issued and the owner was notified.
+SR-2026-20000185,2026-09-10T15:15:13,Water System,QUEENS,Flushing,DEP,Mgr. Yvonne Blake,Closed,2026-09-11T20:46:58,,48,NO,The condition was investigated and corrected.
+SR-2026-20000186,2026-09-09T10:39:13,Illegal Parking,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-10T11:37:23,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000187,2026-09-07T23:09:13,Noise - Street/Sidewalk,BROOKLYN,Crown Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-08T17:34:18,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000188,2026-09-08T08:21:13,Illegal Parking,BRONX,Riverdale,NYPD,Lt. Marcus Webb,Closed,2026-09-08T19:50:50,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000189,2026-09-10T09:22:59,Blocked Driveway,BRONX,Pelham Bay,NYPD,Lt. Marcus Webb,Open,,107.0,24,YES,
+SR-2026-20000190,2026-09-10T19:51:13,HEAT/HOT WATER,BRONX,Mott Haven,HPD,Director Priya Nair,Open,,96.5,168,NO,
+SR-2026-20000191,2026-09-07T23:09:13,PLUMBING,BRONX,Riverdale,HPD,Director Priya Nair,Closed,2026-09-10T13:20:01,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000192,2026-09-12T10:39:13,Noise - Commercial,BRONX,Riverdale,NYPD,Lt. Marcus Webb,Closed,2026-09-12T23:46:31,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000193,2026-09-12T22:14:39,Graffiti,BROOKLYN,Bed-Stuy,DSNY,Supt. Carlos Rivera,Closed,2026-09-14T07:20:21,,48,NO,The Department of Sanitation responded and addressed the condition.
+SR-2026-20000194,2026-09-10T10:39:13,Noise - Commercial,MANHATTAN,Inwood,NYPD,Lt. Marcus Webb,Closed,2026-09-10T23:30:20,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000195,2026-09-09T17:33:13,Noise - Commercial,BROOKLYN,Flatbush,NYPD,Lt. Marcus Webb,Closed,2026-09-10T08:58:26,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000196,2026-09-13T08:45:06,Graffiti,BRONX,Mott Haven,DSNY,Supt. Carlos Rivera,Closed,2026-09-14T16:52:45,,48,NO,Item was collected during the next scheduled pickup.
+SR-2026-20000197,2026-09-07T06:03:13,Blocked Driveway,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-07T15:18:35,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000198,2026-09-13T15:15:13,Request Large Bulky Item Collection,BROOKLYN,Flatbush,DSNY,Supt. Carlos Rivera,Open,,29.1,48,NO,
+SR-2026-20000199,2026-09-12T08:21:13,Illegal Parking,BRONX,Mott Haven,NYPD,Lt. Marcus Webb,Closed,2026-09-13T08:38:01,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000200,2026-09-07T02:40:02,PAINT/PLASTER,BROOKLYN,Williamsburg,HPD,Director Priya Nair,Closed,2026-09-14T19:12:27,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000201,2026-09-10T06:03:13,Illegal Parking,BRONX,Mott Haven,NYPD,Lt. Marcus Webb,Closed,2026-09-10T16:58:54,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000202,2026-09-09T05:17:06,PLUMBING,QUEENS,Jamaica,HPD,Director Priya Nair,Closed,2026-09-14T07:12:24,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000203,2026-09-09T19:51:13,PLUMBING,QUEENS,Flushing,HPD,Director Priya Nair,Open,,120.5,168,NO,
+SR-2026-20000204,2026-09-13T10:59:52,Water System,BROOKLYN,Bed-Stuy,DEP,Mgr. Yvonne Blake,Closed,2026-09-14T19:51:13,,48,NO,A work crew was dispatched and resolved the issue.
+SR-2026-20000205,2026-09-07T08:21:13,Illegal Parking,MANHATTAN,Chelsea,NYPD,Lt. Marcus Webb,Closed,2026-09-08T08:02:31,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000206,2026-09-10T23:09:13,Request Large Bulky Item Collection,BRONX,Fordham,DSNY,Supt. Carlos Rivera,Closed,2026-09-11T18:03:27,,48,NO,Item was collected during the next scheduled pickup.
+SR-2026-20000207,2026-09-13T10:39:13,Noise - Residential,STATEN ISLAND,Stapleton,NYPD,Lt. Marcus Webb,Closed,2026-09-13T23:47:47,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000208,2026-09-11T06:26:34,PAINT/PLASTER,BROOKLYN,Crown Heights,HPD,Director Priya Nair,Closed,2026-09-14T13:27:39,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000209,2026-09-08T19:51:13,PAINT/PLASTER,MANHATTAN,Harlem,HPD,Director Priya Nair,Open,,144.5,168,NO,
+SR-2026-20000210,2026-09-13T08:07:06,Noise - Residential,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-14T08:35:20,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000211,2026-09-12T17:33:13,PAINT/PLASTER,MANHATTAN,Inwood,HPD,Director Priya Nair,Open,,50.8,168,NO,
+SR-2026-20000212,2026-09-14T19:51:13,Noise - Residential,STATEN ISLAND,New Dorp,NYPD,Lt. Marcus Webb,Open,,0.5,24,NO,
+SR-2026-20000213,2026-09-10T15:15:13,Noise - Residential,QUEENS,Forest Hills,NYPD,Lt. Marcus Webb,Closed,2026-09-11T05:59:23,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000214,2026-09-13T12:57:13,Graffiti,BRONX,Riverdale,DSNY,Supt. Carlos Rivera,Open,,31.4,48,NO,
+SR-2026-20000215,2026-09-09T03:45:13,Noise - Residential,QUEENS,Forest Hills,NYPD,Lt. Marcus Webb,Closed,2026-09-10T02:09:56,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000216,2026-09-09T12:57:13,Water System,MANHATTAN,Inwood,DEP,Mgr. Yvonne Blake,Closed,2026-09-10T14:56:41,,48,NO,The condition was investigated and corrected.
+SR-2026-20000217,2026-09-08T20:22:59,Graffiti,BROOKLYN,Crown Heights,DSNY,Supt. Carlos Rivera,Open,,144.0,48,YES,
+SR-2026-20000218,2026-09-07T16:22:59,Noise - Vehicle,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Open,,172.0,24,YES,
+SR-2026-20000219,2026-09-13T10:39:13,Request Large Bulky Item Collection,BROOKLYN,Williamsburg,DSNY,Supt. Carlos Rivera,Open,,33.7,48,NO,
+SR-2026-20000220,2026-09-08T06:03:13,Noise - Residential,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Closed,2026-09-08T15:27:23,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000221,2026-09-07T23:34:49,UNSANITARY CONDITION,QUEENS,Forest Hills,HPD,Director Priya Nair,Closed,2026-09-14T18:41:06,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000222,2026-09-07T18:22:59,Illegal Parking,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Open,,170.0,24,YES,
+SR-2026-20000223,2026-09-09T06:03:13,Non-Emergency Police Matter,QUEENS,Forest Hills,NYPD,Lt. Marcus Webb,Closed,2026-09-10T05:16:17,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000224,2026-09-11T02:34:53,PLUMBING,BROOKLYN,Flatbush,HPD,Director Priya Nair,Closed,2026-09-14T06:29:21,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000225,2026-09-10T08:21:13,Noise - Residential,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-10T20:14:01,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000226,2026-09-11T10:22:59,Noise - Commercial,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Open,,82.0,24,YES,
+SR-2026-20000227,2026-09-11T17:33:13,PAINT/PLASTER,QUEENS,Astoria,HPD,Director Priya Nair,Open,,74.8,168,NO,
+SR-2026-20000228,2026-09-13T01:27:13,Noise - Vehicle,MANHATTAN,Inwood,NYPD,Lt. Marcus Webb,Closed,2026-09-13T22:52:49,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000229,2026-09-13T08:21:13,Request Large Bulky Item Collection,BROOKLYN,Bed-Stuy,DSNY,Supt. Carlos Rivera,Open,,36.0,48,NO,
+SR-2026-20000230,2026-09-13T00:45:15,Street Light Condition,QUEENS,Flushing,DOT,Dir. Samantha Chen,Closed,2026-09-14T18:52:43,,72,NO,The Department of Transportation inspected and corrected the condition.
+SR-2026-20000231,2026-09-09T08:21:13,Noise - Residential,BROOKLYN,Flatbush,NYPD,Lt. Marcus Webb,Closed,2026-09-09T20:00:35,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000232,2026-09-12T23:21:45,Elevator,QUEENS,Jackson Heights,DOB,Insp. Tony Marchetti,Closed,2026-09-14T09:49:06,,96,NO,A building inspector was dispatched and the condition was addressed.
+SR-2026-20000233,2026-09-09T06:03:13,Illegal Parking,QUEENS,Astoria,NYPD,Lt. Marcus Webb,Closed,2026-09-09T16:12:28,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000234,2026-09-08T01:27:13,Blocked Driveway,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-08T21:12:06,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000235,2026-09-12T15:15:13,Elevator,BROOKLYN,Flatbush,DOB,Insp. Tony Marchetti,Open,,53.1,96,NO,
+SR-2026-20000236,2026-09-10T12:57:13,Blocked Driveway,QUEENS,Jackson Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-11T15:03:01,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000237,2026-09-08T10:39:13,Water System,BROOKLYN,Flatbush,DEP,Mgr. Yvonne Blake,Closed,2026-09-09T11:13:44,,48,NO,A work crew was dispatched and resolved the issue.
+SR-2026-20000238,2026-09-12T06:03:13,Noise - Residential,BRONX,Pelham Bay,NYPD,Lt. Marcus Webb,Closed,2026-09-13T05:37:45,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000239,2026-09-10T17:33:13,PLUMBING,BROOKLYN,Bed-Stuy,HPD,Director Priya Nair,Open,,98.8,168,NO,
+SR-2026-20000240,2026-09-09T01:27:13,Street Light Condition,QUEENS,Jackson Heights,DOT,Dir. Samantha Chen,Closed,2026-09-12T04:03:26,,72,NO,A work order was issued for repair.
+SR-2026-20000241,2026-09-07T10:39:13,Water System,BRONX,Riverdale,DEP,Mgr. Yvonne Blake,Closed,2026-09-08T11:11:51,,48,NO,The condition was investigated and corrected.
+SR-2026-20000242,2026-09-12T15:15:13,Water System,BRONX,Pelham Bay,DEP,Mgr. Yvonne Blake,Closed,2026-09-13T22:51:30,,48,NO,A work crew was dispatched and resolved the issue.
+SR-2026-20000243,2026-09-12T08:22:59,Blocked Driveway,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Open,,60.0,24,YES,
+SR-2026-20000244,2026-09-12T23:57:46,Request Large Bulky Item Collection,BROOKLYN,Bushwick,DSNY,Supt. Carlos Rivera,Closed,2026-09-14T16:44:39,,48,NO,Item was collected during the next scheduled pickup.
+SR-2026-20000245,2026-09-09T05:45:45,PLUMBING,QUEENS,Flushing,HPD,Director Priya Nair,Closed,2026-09-14T10:56:41,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000246,2026-09-08T06:03:13,Non-Emergency Police Matter,BRONX,Pelham Bay,NYPD,Lt. Marcus Webb,Closed,2026-09-09T05:10:55,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000247,2026-09-07T06:22:59,Blocked Driveway,QUEENS,Flushing,NYPD,Lt. Marcus Webb,Open,,182.0,24,YES,
+SR-2026-20000248,2026-09-12T19:51:13,Noise - Residential,BRONX,Mott Haven,NYPD,Lt. Marcus Webb,Closed,2026-09-13T13:20:06,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000249,2026-09-11T22:26:52,Street Condition,BROOKLYN,Bushwick,DOT,Dir. Samantha Chen,Closed,2026-09-14T19:10:14,,72,NO,A work order was issued for repair.
+SR-2026-20000250,2026-09-11T08:21:13,Derelict Vehicle,BRONX,Fordham,NYPD,Lt. Marcus Webb,Closed,2026-09-12T08:37:16,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000251,2026-09-10T22:53:41,Street Light Condition,STATEN ISLAND,Port Richmond,DOT,Dir. Samantha Chen,Closed,2026-09-14T01:28:59,,72,NO,The Department of Transportation inspected and corrected the condition.
+SR-2026-20000252,2026-09-10T17:33:13,Noise - Street/Sidewalk,QUEENS,Jamaica,NYPD,Lt. Marcus Webb,Closed,2026-09-11T09:02:51,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000253,2026-09-09T17:33:13,HEAT/HOT WATER,QUEENS,Astoria,HPD,Director Priya Nair,Open,,122.8,168,NO,
+SR-2026-20000254,2026-09-12T03:45:13,Noise - Commercial,QUEENS,Astoria,NYPD,Lt. Marcus Webb,Closed,2026-09-12T11:59:05,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000255,2026-09-14T17:56:13,Noise - Street/Sidewalk,MANHATTAN,Washington Heights,NYPD,Lt. Marcus Webb,Open,,2.4,24,NO,
+SR-2026-20000256,2026-09-07T23:02:36,HEAT/HOT WATER,BROOKLYN,Bed-Stuy,HPD,Director Priya Nair,Closed,2026-09-14T19:18:22,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000257,2026-09-11T23:09:13,Derelict Vehicle,QUEENS,Astoria,NYPD,Lt. Marcus Webb,Closed,2026-09-12T18:03:58,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000258,2026-09-13T15:15:13,Noise - Residential,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-14T06:25:58,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000259,2026-09-08T17:33:13,PAINT/PLASTER,QUEENS,Astoria,HPD,Director Priya Nair,Open,,146.8,168,NO,
+SR-2026-20000260,2026-09-10T19:22:59,Homeless Person Assistance,BRONX,Pelham Bay,DHS,Dir. Fatima Hassan,Open,,97.0,24,YES,
+SR-2026-20000261,2026-09-14T16:01:13,Homeless Person Assistance,BRONX,Tremont,DHS,Dir. Fatima Hassan,Open,,4.3,24,NO,
+SR-2026-20000262,2026-09-11T22:05:22,PAINT/PLASTER,QUEENS,Flushing,HPD,Director Priya Nair,Closed,2026-09-14T14:54:35,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000263,2026-09-06T23:22:59,UNSANITARY CONDITION,STATEN ISLAND,Port Richmond,HPD,Director Priya Nair,Open,,189.0,168,YES,
+SR-2026-20000264,2026-09-07T12:57:13,Street Light Condition,MANHATTAN,Chelsea,DOT,Dir. Samantha Chen,Closed,2026-09-08T14:34:42,,72,NO,The Department of Transportation inspected and corrected the condition.
+SR-2026-20000265,2026-09-14T14:06:13,Illegal Parking,BROOKLYN,Flatbush,NYPD,Lt. Marcus Webb,Open,,6.2,24,NO,
+SR-2026-20000266,2026-09-09T04:22:59,Rodent,QUEENS,Forest Hills,DOHMH,Dr. James Okafor,Open,,136.0,72,YES,
+SR-2026-20000267,2026-09-08T03:37:38,UNSANITARY CONDITION,MANHATTAN,Inwood,HPD,Director Priya Nair,Closed,2026-09-14T15:20:16,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000268,2026-09-12T06:03:13,Illegal Parking,BROOKLYN,Bed-Stuy,NYPD,Lt. Marcus Webb,Closed,2026-09-12T17:03:45,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000269,2026-09-10T01:27:13,HEAT/HOT WATER,QUEENS,Astoria,HPD,Director Priya Nair,Closed,2026-09-13T04:25:30,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000270,2026-09-11T21:27:18,HEAT/HOT WATER,QUEENS,Flushing,HPD,Director Priya Nair,Closed,2026-09-14T19:47:12,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000271,2026-09-12T12:57:13,Street Light Condition,BRONX,Tremont,DOT,Dir. Samantha Chen,Open,,55.4,72,NO,
+SR-2026-20000272,2026-09-11T15:15:13,UNSANITARY CONDITION,BRONX,Fordham,HPD,Director Priya Nair,Open,,77.1,168,NO,
+SR-2026-20000273,2026-09-12T10:39:13,Noise - Street/Sidewalk,BROOKLYN,Williamsburg,NYPD,Lt. Marcus Webb,Closed,2026-09-13T12:09:28,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000274,2026-09-09T10:39:13,Illegal Parking,BRONX,Tremont,NYPD,Lt. Marcus Webb,Closed,2026-09-09T22:59:53,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000275,2026-09-10T15:15:13,UNSANITARY CONDITION,BROOKLYN,Crown Heights,HPD,Director Priya Nair,Open,,101.1,168,NO,
+SR-2026-20000276,2026-09-10T02:22:59,Request Large Bulky Item Collection,MANHATTAN,Inwood,DSNY,Supt. Carlos Rivera,Open,,114.0,48,YES,
+SR-2026-20000277,2026-09-09T23:09:13,Noise - Residential,BROOKLYN,Bushwick,NYPD,Lt. Marcus Webb,Closed,2026-09-10T17:46:02,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000278,2026-09-10T12:57:13,Illegal Parking,MANHATTAN,Inwood,NYPD,Lt. Marcus Webb,Closed,2026-09-11T02:27:11,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000279,2026-09-08T02:37:44,PLUMBING,MANHATTAN,Washington Heights,HPD,Director Priya Nair,Closed,2026-09-14T11:11:27,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000280,2026-09-10T17:33:13,Elevator,QUEENS,Forest Hills,DOB,Insp. Tony Marchetti,Closed,2026-09-12T20:58:02,,96,NO,A violation was issued and the owner was notified.
+SR-2026-20000281,2026-09-12T10:39:13,Street Light Condition,BROOKLYN,Bed-Stuy,DOT,Dir. Samantha Chen,Open,,57.7,72,NO,
+SR-2026-20000282,2026-09-13T06:03:13,Noise - Residential,BROOKLYN,Bushwick,NYPD,Lt. Marcus Webb,Closed,2026-09-13T17:07:38,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000283,2026-09-09T02:49:11,PLUMBING,BROOKLYN,Bushwick,HPD,Director Priya Nair,Closed,2026-09-14T15:52:34,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000284,2026-09-07T10:39:13,Illegal Parking,QUEENS,Astoria,NYPD,Lt. Marcus Webb,Closed,2026-09-07T22:44:44,,24,NO,"Upon arrival, the condition was no longer present."
+SR-2026-20000285,2026-09-10T05:13:38,UNSANITARY CONDITION,BRONX,Mott Haven,HPD,Director Priya Nair,Closed,2026-09-14T14:16:16,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000286,2026-09-10T16:22:59,Rodent,MANHATTAN,Inwood,DOHMH,Dr. James Okafor,Open,,100.0,72,YES,
+SR-2026-20000287,2026-09-10T11:22:59,Street Light Condition,MANHATTAN,Harlem,DOT,Dir. Samantha Chen,Open,,105.0,72,YES,
+SR-2026-20000288,2026-09-11T22:40:44,Street Light Condition,QUEENS,Astoria,DOT,Dir. Samantha Chen,Closed,2026-09-14T15:35:39,,72,NO,The Department of Transportation inspected and corrected the condition.
+SR-2026-20000289,2026-09-12T01:22:59,Graffiti,BROOKLYN,Bushwick,DSNY,Supt. Carlos Rivera,Open,,67.0,48,YES,
+SR-2026-20000290,2026-09-09T01:22:59,Noise - Street/Sidewalk,MANHATTAN,Inwood,NYPD,Lt. Marcus Webb,Open,,139.0,24,YES,
+SR-2026-20000291,2026-09-11T19:51:13,PAINT/PLASTER,BROOKLYN,Bushwick,HPD,Director Priya Nair,Closed,2026-09-14T07:54:25,,168,NO,The building owner was notified and corrected the condition.
+SR-2026-20000292,2026-09-13T09:41:57,Water System,BROOKLYN,Bushwick,DEP,Mgr. Yvonne Blake,Closed,2026-09-14T11:17:24,,48,NO,A work crew was dispatched and resolved the issue.
+SR-2026-20000293,2026-09-09T15:15:13,PAINT/PLASTER,BROOKLYN,Crown Heights,HPD,Director Priya Nair,Open,,125.1,168,NO,
+SR-2026-20000294,2026-09-07T03:12:00,PAINT/PLASTER,QUEENS,Astoria,HPD,Director Priya Nair,Closed,2026-09-14T13:30:26,,168,NO,An inspection was conducted and a violation was issued.
+SR-2026-20000295,2026-09-11T04:09:58,Elevator,BRONX,Pelham Bay,DOB,Insp. Tony Marchetti,Closed,2026-09-14T08:53:06,,96,NO,A building inspector was dispatched and the condition was addressed.
+SR-2026-20000296,2026-09-10T16:22:59,Rodent,QUEENS,Flushing,DOHMH,Dr. James Okafor,Open,,100.0,72,YES,
+SR-2026-20000297,2026-09-12T08:21:13,Street Condition,BROOKLYN,Flatbush,DOT,Dir. Samantha Chen,Open,,60.0,72,NO,
+SR-2026-20000298,2026-09-13T03:45:13,Blocked Driveway,MANHATTAN,East Village,NYPD,Lt. Marcus Webb,Closed,2026-09-13T12:47:02,,24,NO,The Police Department responded to the complaint and took action.
+SR-2026-20000299,2026-09-07T15:15:13,Noise - Street/Sidewalk,QUEENS,Jackson Heights,NYPD,Lt. Marcus Webb,Closed,2026-09-08T05:29:15,,24,NO,The Police Department responded to the complaint and took action.
